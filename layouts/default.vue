@@ -1,7 +1,6 @@
 <script lang="ts">
 
-// const storagePopup = useState<any>('storagePopup', () => null);
-
+export default {}
 </script>
 
 <template>
