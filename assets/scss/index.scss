@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  background-image: url('/public/img/line_for_page.png');
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@font-face {
+  font-family: "Akrobat Bold";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/Akrobat-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mabry Pro Regular";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/MabryPro-Regular.woff2") format("woff2");
+}
